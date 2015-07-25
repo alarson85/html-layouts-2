@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	background-color: gray;
+}
+
+.top {
+	margin:5%;
+	background: white;
+	padding:10%;
+	display: block;
+
+
+}
+
+.button-1 {
+	background-color: red;
+	height:50px;
+	width:100px;
+	float:left;
+	display: inline;
+	color:white;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.button-2 {
+	background-color: blue;
+	height:50px;
+	width:100px;
+	float:left;
+	display: inline;
+	color:white;
+	text-align: center;
+}
+.middle {
+	background-color: white;
+	padding: 10%;
+	margin: 5%;
+	display:block;
+	height: 75%;
+
+
+}
+
+.main-image {
+	display:inline;
+	background-color: black;
+	height:180px;
+	width:100%;
+	float:left;
+	color: white;
+	text-align: center;
+	padding-top: 90px;
+
+
+}
+
+.bar {
+	display: inline-block;
+	height:50px;
+	background-color: black;
+	width:100%;
+	color:white;
+	float:right;
+
+}
+
+.bot-but-1 {
+	background-color: black;
+	height:50px;
+	width:100px;
+	float:left;
+	display: inline;
+	color:white;
+	text-align: center;
+	margin-right: 25px;
+	float:right;
+
+
+}
+
+.bot-but-2 {
+	ß
+
+}
