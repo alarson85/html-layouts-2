@@ -1,77 +1,78 @@
 body {
-	margin:10px;
-	height:100%;
-	width:100%;
+	margin: 15px;
+	height: 100%;
+	width: 480px;
 }
-.top-parent {
-		width:100%;
-}
-.top {
-	height:100px;
-	margin:10px;
-	width:300px;
-	display:block;
-	float:left;
 
+.header {
+	height: 12%;
+	width: 100%;
 }
+
+.topBox {
+	height: 100%;
+	width: 30%;
+	display: block;
+	float: left;
+}
+
+.gap {
+	margin-right: 5%;
+}
+
 .red {
 	background-color: red;
 }
+
 .blue {
 	background-color: blue;
 }
+
 .gray {
 	background-color: gray;
 }
+
 .text {
-	margin:10px;
+	padding:10px 0;
 }
 
+
+.divider {
+	height: 205px;
+	width: 100%;
+	display: block;
+	margin: 15px 0;
+}
 
 .middle {
-	height:250px;
-	width:100%;
-	display:block;
-	float:left;
-	margin-bottom:20px;
-}
-.mid-red {
-	background-color: red;
-	width:300px;
-
-}
-.mid-blue {
-	background-color: blue;
-	width:640px;
+	height: 100%;
+	display: inline-block;
 }
 
+.left {
+	width: 33%;
 
+}
+
+.right, .one{
+	width: 67%;
+}
+
+.footer {
+	height: 80px;
+	width: 100%;
+	display: block;
+}
 
 .bottom {
-	height:250;
-	display:block;
-	float:left;
-	width:100%;
-	margin:-4;
+	display: inline-block;
+	height:100%;
 }
-.bot-blue {
-	height: 100%;
-	width: 66.667%;
-	background: blue;
-	display:inline-block;
-	
-}
-.bot-red {
-	background-color: red;
-	width:8%;
-	height: 100%;
-	display:inline-block;
 
+.two {
+	width: 5%;
 }
-.bot-gray {
-	background-color: gray;
-	width:14%;
-	height: 100%;
-	display:inline-block;
 
+.three {
+	width: 23%;
 }

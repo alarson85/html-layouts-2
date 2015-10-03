@@ -3,17 +3,19 @@ body {
 	background-color: gray;
 }
 
-.top {
-	margin:5%;
-	background: white;
-	padding:10%;
-	display: block;
-
-
+.wrapper {
+	padding: 0 4%;
 }
 
-.button-1 {
-	background-color: red;
+.top {
+	margin: 4%;
+	background: white;
+	padding: 1% 4%;
+	display: block;
+	height: 25%;
+}
+
+.button {
 	height:50px;
 	width:100px;
 	float:left;
@@ -23,63 +25,57 @@ body {
 	margin-right: 25px;
 }
 
-.button-2 {
-	background-color: blue;
-	height:50px;
-	width:100px;
-	float:left;
-	display: inline;
-	color:white;
-	text-align: center;
+.red {
+	background-color: red;
 }
+
+.blue {
+	background-color: blue;
+}
+
+
 .middle {
 	background-color: white;
-	padding: 10%;
-	margin: 5%;
+	padding: 4%;
+	margin: 4%;
 	display:block;
-	height: 75%;
-
-
+	height: 48%;
 }
 
 .main-image {
-	display:inline;
+	display: inline-block;
 	background-color: black;
-	height:180px;
-	width:100%;
-	float:left;
+	height: 135px;
+	width: 100%;
+	float: left;
 	color: white;
 	text-align: center;
 	padding-top: 90px;
+	margin-bottom: 20px;
+}
 
-
+.middleText {
+	top: 15px;
+	display: block;
 }
 
 .bar {
-	display: inline-block;
-	height:50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;
 	background-color: black;
-	width:100%;
-	color:white;
-	float:right;
-
+	width: 100%;
+	color: white;
+	float: right;
 }
 
-.bot-but-1 {
-	background-color: black;
-	height:50px;
-	width:100px;
-	float:left;
+li {
+	height: 60px;
+	width: 60px;
 	display: inline;
-	color:white;
-	text-align: center;
+	color: white;
+	text-align: right;
 	margin-right: 25px;
 	float:right;
-
-
-}
-
-.bot-but-2 {
-	ß
-
 }

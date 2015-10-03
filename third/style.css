@@ -1,0 +1,42 @@
+body {
+	background-color: white;
+	margin: 0;
+	font-family: sans-serif;	
+}
+
+.header, .footer {
+	background-color: black;
+	height: 60px;
+	width: 100%;
+}
+
+ul {
+	padding-top: 18px;
+}
+
+li	{
+	font-size: 11px;
+	display: inline;
+	color: white;
+	margin: auto;
+	padding-right: 20px;
+}
+
+.mainBody {
+	border: solid yellow 1px;
+	height: 520px;
+	width: 45%;
+	display: block;
+	margin: 30px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 10px;
+	font-color: gray;
+
+}
+
