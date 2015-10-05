@@ -23,11 +23,23 @@ li	{
 }
 
 .mainBody {
-	border: solid yellow 1px;
 	height: 520px;
-	width: 45%;
+	width: 95%;
 	display: block;
-	margin: 30px;
+	margin: 0 auto;
+}
+
+.leftColumn {
+	width: 45%;
+	float: left;
+	padding: 25px;
+	max-width: 45%;
+}
+
+.rightColumn {
+	width: 45%;
+	margin-left: 50%;
+	padding: 25px;
 }
 
 h1 {
@@ -37,6 +49,16 @@ h1 {
 p {
 	font-size: 10px;
 	font-color: gray;
+}
 
+img {
+	height: 150px;
+	width: 220px;
+	background-color: silver;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
 }
 
