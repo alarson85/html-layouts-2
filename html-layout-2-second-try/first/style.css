@@ -1,0 +1,74 @@
+* {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.header {
+	height: 15%;
+	width: 100%;
+}
+
+.top {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.top.blue {
+	margin: 0 12%;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.textArea {
+	height: 40%;
+	width: 100%;
+	overflow: hidden;
+}
+
+p {
+	display: block;
+}
+
+.body {
+	height: 30%;
+	width:	100%;
+}
+
+.middle {
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.footer {
+	margin-top: 3%;
+	height: 15%;
+}
+
+.bottom {
+	display: block;
+	float: left;
+}
+
+.box1 {
+	width: 60%;
+}
+
+.box2 {
+	width: 5%;
+}
+
+.box3 {
+	width: 30%;
+}
