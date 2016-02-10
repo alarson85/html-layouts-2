@@ -1,11 +1,19 @@
 * {
-	height: 100%;
 	box-sizing: border-box;
 }
 
-.header {
-	height: 15%;
+.wrapper {
+	height: 1200px;
 	width: 100%;
+}
+
+.header {
+	height: 10%;
+	width: 100%;
+}
+
+.box {
+	height: 100%;
 }
 
 .top {
@@ -31,14 +39,9 @@
 }
 
 .textArea {
-	height: 40%;
+	height: 30%;
 	width: 100%;
-	overflow: hidden;
-}
-
-p {
-	display: block;
-}
+}	
 
 .body {
 	height: 30%;
@@ -52,11 +55,11 @@ p {
 }
 
 .footer {
-	margin-top: 3%;
-	height: 15%;
+	height: 10%;
 }
 
 .bottom {
+	margin-top: 5%;
 	display: block;
 	float: left;
 }
