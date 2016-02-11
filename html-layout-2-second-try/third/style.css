@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.header, .footer{
+	height: 100px;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	color: white;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 25px;
+	font-size: 25px;
+}
+
+.body {
+	padding: 5%;
+	height: 520px;
+	display: block;
+}
+
+.column1 {
+	padding: 5%;
+	width: 40%;
+	float:	left;
+}
+
+.column2 {
+	width: 40%;
+	padding: 5%;
+}

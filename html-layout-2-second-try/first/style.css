@@ -49,9 +49,18 @@
 }
 
 .middle {
-	width: 50%;
 	display: block;
 	float: left;
+}
+
+.boxLeft {
+	width: 30%;
+	height: 100%
+}
+
+.boxRight {
+	width: 70%;
+	height: 100%;
 }
 
 .footer {
